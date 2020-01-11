@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Name: Sadžida Halvadžić
+        Course: CS412
+        Assignment: 1
+        Purpose: The purpose of this assignment is to gain a better
+                  understanding of basic HTML. -->
+    <meta charset="utf-8">
+    <meta name="author: " content="Sadžida Halvadžić">
+    <meta name="description: " content=" CV">
+    <meta name="last modified: " content="11/01/2020">
+    <title>Sadzida Halvadzic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "Styles.css">
+    <script type="text/javascript" src="script.js"></script>
+
+  </head>
+  <body data-spy="scroll"  data-offset="50">
+
+<!-- Whole page is container -->
+  <div class="container">
+    <!-- Make one row with 2 columns to divide page on 2 sides, left and right. -->
+  <div class="row align-items-start">
+    <!-- Left side -->
+    <div class="col">
+      <!-- card with picture and links -->
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <img src="Sadzida.jpg" class="card-img-top" alt="My photo" >
+        <div class="card-header" id="myName" onclick="nameClick()"><h2><center>Sadžida Halvadžić</center></h2></div>
+        <div class="card-body">
+          <h2 class="card-title">Welcome!</h2>
+          <p class="card-text">
+              <div class="list text-white bg-dark mb-3">
+                <!-- List containing link on the page -->
+                <ul class = "custom-list">
+                  <li><a href="#persInfo">Personal informations</a></li>
+                  <li><a href="#profSum">Professional summary</a></li>
+                  <li><a href="#edu">Education</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  </ol>
+                </ul>
+              </div>
+          </p>
+        </div>
+      </div> <!-- Close card class -->
+    </div> <!-- Close left column -->
+
+    <!-- Right column -->
+    <div class="col">
+      <div id="persInfo" class="Personal-informations">
+        <h2>Personal informations</h2>
+        <br>
+        <p><strong>Adress: </strong> Aleja Bosne srebrene bb <br>
+        <strong>E-mail: </strong> sadzida98@hotmail.com</p><br>
+      </div>
+
+      <div id="profSum" class="Profesional-summary">
+        <h2>Professional summary</h2>
+        <br>
+        <p>
+        <div class="card">
+          <div class="card-body">
+            <center><blockquote cite="https://www.brainyquote.com/quotes/leonardo_da_vinci_120052">
+              “I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.”
+               <br>
+               <br>
+               <em>Leonardo da Vinci (engineer, inventor, artist, mathematician)</em></center>
+            </blockquote>
+          </div>
+        </div>
+        <br> Undergraduate in computer science. Want to join a reputable organization to being a fulfilling, lifelong career.
+         Extensive knowledge of programming and design.</p><br>
+      </div>
+
+      <div id="edu" class="Education">
+        <h2>Education</h2>
+        <br>
+        <p>Study at <a href="https://www.ius.edu.ba/">International University of Sarajevo</a><br>
+        Faculty of Engineering and Natural Sciences <br>
+        Computer Science and Engineering</p> <br>
+        <br>
+        <h3>My works:</h3>
+        <ul>
+          <li>Find my first progress of CV <a href="https://sadzidah.github.io/CVSadzida/"> here </a></li>
+          <li>Find my second progress of CV  <a href="https://sadzidah.github.io/SecondProgress/"> here </a></li>
+          <li>Find my third progress of CV  <a href="https://sadzidah.github.io/ThirdProgress/"> here </a></li>
+          <li>Find my webpage for movie reviews and trailers <a href="https://sadzidah.github.io/MovieReview-final/"> here </a></li>
+          <li>Find my webpage for selling hijab scarves <a href="https://sadzidah.github.io/HijabShop-final/"> here </a></li>
+        </ul>
+      </div>
+
+        <div id="skills" class="Skills">
+          <h2>Skills</h2>
+          <br>
+          <ul class = "custom-list">
+            <li><strong>Java </strong> - Skillful</li>
+            <li><strong>HTML </strong> - Beginner</li>
+            <li><strong>C++ </strong> - Skillful</li>
+            <li><strong>MC Office </strong> - Skillful</li>
+          </ul>
+        </div>
+
+    </div> <!-- Close right column -->
+
+  </div>  <!-- Close row -->
+
+</div>  <!-- Close page container -->
+
+
+
+
+
+  </body>
+</html>
